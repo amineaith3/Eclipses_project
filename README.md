@@ -8,6 +8,9 @@ By leveraging multimedia elements, we aim to make the understanding of eclipses 
 
 The project's importance lies in enhancing scientific literacy, sparking curiosity about astronomy, and promoting a deeper understanding of natural astronomical events.
 
+# Usage :
+Please note that for a better quiz experience, you will need to have the video shared next, in the same path as the Python files. Thanks !
+
 
 # The link for the video : 
 
