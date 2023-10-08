@@ -1,0 +1,404 @@
+{
+    "questions": [
+        {
+            "number": 1,
+            "question": "What is a solar eclipse?",
+            "correct_answer": "A solar eclipse occurs when the Moon passes between the Earth and the Sun, blocking out the Sun's light from a specific region on Earth.",
+            "choices": [
+                "A solar eclipse occurs when the Moon passes between the Earth and the Sun, blocking out the Sun's light from a specific region on Earth.",
+                "A solar eclipse is a lunar event.",
+                "A solar eclipse happens when the Earth passes between the Moon and the Sun."
+            ]
+        },
+        {
+            "number": 2,
+            "question": "What is a lunar eclipse?",
+            "correct_answer": "A lunar eclipse occurs when the Earth passes between the Sun and the Moon, casting its shadow on the Moon's surface, causing it to darken.",
+            "choices": [
+                "A lunar eclipse occurs when the Earth passes between the Sun and the Moon, casting its shadow on the Moon's surface, causing it to darken.",
+                "A lunar eclipse is a solar event.",
+                "A lunar eclipse occurs when the Moon passes between the Earth and the Sun."
+            ]
+        },
+        {
+            "number": 3,
+            "question": "How does a solar eclipse differ from a lunar eclipse?",
+            "correct_answer": "A solar eclipse involves the Moon blocking the Sun's light on Earth, while a lunar eclipse involves the Earth casting a shadow on the Moon.",
+            "choices": [
+                "A solar eclipse involves the Moon blocking the Sun's light on Earth, while a lunar eclipse involves the Earth casting a shadow on the Moon.",
+                "A solar eclipse involves the Earth casting a shadow on the Moon.",
+                "A lunar eclipse involves the Moon blocking the Sun's light on Earth."
+            ]
+        },
+        {
+            "number": 4,
+            "question": "What is the primary celestial body involved in a solar eclipse?",
+            "correct_answer": "The primary celestial bodies involved in a solar eclipse are the Earth, Moon, and Sun.",
+            "choices": [
+                "The primary celestial bodies involved in a solar eclipse are the Earth, Moon, and Sun.",
+                "The primary celestial bodies involved in a solar eclipse are the Earth and the Moon.",
+                "The primary celestial body involved in a solar eclipse is the Moon."
+            ]
+        },
+        {
+            "number": 5,
+            "question": "What is the primary celestial body involved in a lunar eclipse?",
+            "correct_answer": "The primary celestial bodies involved in a lunar eclipse are the Earth, Moon, and Sun.",
+            "choices": [
+                "The primary celestial bodies involved in a lunar eclipse are the Earth, Moon, and Sun.",
+                "The primary celestial bodies involved in a lunar eclipse are the Earth and the Moon.",
+                "The primary celestial body involved in a lunar eclipse is the Earth."
+            ]
+        },
+        {
+            "number": 6,
+            "question": "What causes the Moon to cast a shadow on Earth during a solar eclipse?",
+            "correct_answer": "The Moon casts a shadow on Earth during a solar eclipse because it passes between the Earth and the Sun, blocking the Sun's light.",
+            "choices": [
+                "The Moon casts a shadow on Earth during a solar eclipse because it passes between the Earth and the Sun, blocking the Sun's light.",
+                "The Moon casts a shadow on Earth during a solar eclipse because the Earth passes between the Moon and the Sun.",
+                "The Moon casts a shadow on Earth during a solar eclipse because it moves away from the Earth."
+            ]
+        },
+        {
+            "number": 7,
+            "question": "How often does a solar eclipse occur on Earth?",
+            "correct_answer": "Solar eclipses occur approximately every 18 months somewhere on Earth.",
+            "choices": [
+                "Solar eclipses occur approximately every 18 months somewhere on Earth.",
+                "Solar eclipses occur approximately every 5 years.",
+                "Solar eclipses occur approximately every month."
+            ]
+        },
+        {
+            "number": 8,
+            "question": "How often does a lunar eclipse occur on Earth?",
+            "correct_answer": "Lunar eclipses occur, on average, about two to four times a year.",
+            "choices": [
+                "Lunar eclipses occur, on average, about two to four times a year.",
+                "Lunar eclipses occur, on average, once every century.",
+                "Lunar eclipses occur, on average, about once a month."
+            ]
+        },
+        {
+            "number": 9,
+            "question": "What are the different types of solar eclipses?",
+            "correct_answer": "The different types of solar eclipses are total solar eclipses, partial solar eclipses, and annular solar eclipses.",
+            "choices": [
+                "The different types of solar eclipses are total solar eclipses, partial solar eclipses, and annular solar eclipses.",
+                "The different types of solar eclipses are total solar eclipses and partial lunar eclipses.",
+                "The different types of solar eclipses are annular solar eclipses and total lunar eclipses."
+            ]
+        },
+        {
+            "number": 10,
+            "question": "What are the different phases of a total solar eclipse?",
+            "correct_answer": "The phases of a total solar eclipse include the first contact (beginning of the eclipse), second contact (start of totality), third contact (end of totality), and fourth contact (end of the eclipse).",
+            "choices": [
+                "The phases of a total solar eclipse include the first contact (beginning of the eclipse), second contact (start of totality), third contact (end of totality), and fourth contact (end of the eclipse).",
+                "The phases of a total solar eclipse include the first contact and the last contact.",
+                "The phases of a total solar eclipse include the start of totality and the end of totality."
+            ]
+        },
+        {
+            "number": 11,
+            "question": "What is the path of totality during a total solar eclipse?",
+            "correct_answer": "The path of totality is the narrow region on Earth's surface where a total solar eclipse can be observed in its fullest.",
+            "choices": [
+                "The path of totality is the narrow region on Earth's surface where a total solar eclipse can be observed in its fullest.",
+                "The path of totality is the entire Earth's surface during a total solar eclipse.",
+                "The path of totality is the region where a partial solar eclipse can be observed."
+            ]
+        },
+        {
+            "number": 12,
+            "question": "How does the Moon's apparent size compare to the Sun during a total solar eclipse?",
+            "correct_answer": "During a total solar eclipse, the Moon's apparent size is slightly larger than the Sun's, allowing it to completely cover the Sun's disk.",
+            "choices": [
+                "During a total solar eclipse, the Moon's apparent size is slightly larger than the Sun's, allowing it to completely cover the Sun's disk.",
+                "During a total solar eclipse, the Moon's apparent size is smaller than the Sun's.",
+                "During a total solar eclipse, the Moon's apparent size is the same as the Sun's."
+            ]
+        },
+        {
+            "number": 13,
+            "question": "What is a partial solar eclipse?",
+            "correct_answer": "A partial solar eclipse occurs when only a portion of the Sun is obscured by the Moon, and it doesn't completely cover the Sun's disk.",
+            "choices": [
+                "A partial solar eclipse occurs when only a portion of the Sun is obscured by the Moon, and it doesn't completely cover the Sun's disk.",
+                "A partial solar eclipse occurs when the Moon completely covers the Sun.",
+                "A partial solar eclipse occurs when the Earth casts a shadow on the Moon."
+            ]
+        },
+        {
+            "number": 14,
+            "question": "What is an annular solar eclipse?",
+            "correct_answer": "An annular solar eclipse happens when the Moon covers the center of the Sun, leaving a ring or 'ring of fire' around the Sun's edges.",
+            "choices": [
+                "An annular solar eclipse happens when the Moon covers the center of the Sun, leaving a ring or 'ring of fire' around the Sun's edges.",
+                "An annular solar eclipse happens when the Sun completely covers the Moon.",
+                "An annular solar eclipse happens when the Moon covers the Earth."
+            ]
+        },
+        {
+            "number": 15,
+            "question": "What is a hybrid (annular-total) solar eclipse?",
+            "correct_answer": "A hybrid solar eclipse is an eclipse that transitions from an annular eclipse to a total eclipse or vice versa along its path.",
+            "choices": [
+                "A hybrid solar eclipse is an eclipse that transitions from an annular eclipse to a total eclipse or vice versa along its path.",
+                "A hybrid solar eclipse is an eclipse that transitions from a lunar eclipse to a solar eclipse.",
+                "A hybrid solar eclipse is an eclipse that transitions from a total eclipse to an annular eclipse."
+            ]
+        },
+        {
+            "number": 16,
+            "question": "Why are total solar eclipses considered rare events?",
+            "correct_answer": "Total solar eclipses are considered rare events because they require precise alignment of the Sun, Moon, and Earth, and the path of totality is relatively narrow.",
+            "choices": [
+                "Total solar eclipses are considered rare events because they require precise alignment of the Sun, Moon, and Earth, and the path of totality is relatively narrow.",
+                "Total solar eclipses are not considered rare events.",
+                "Total solar eclipses are considered rare events because they happen every day."
+            ]
+        },
+        {
+            "number": 17,
+            "question": "How long does a typical total solar eclipse last?",
+            "correct_answer": "A typical total solar eclipse can last for a few minutes, usually between 2 to 7 minutes, depending on the specific eclipse.",
+            "choices": [
+                "A typical total solar eclipse can last for a few minutes, usually between 2 to 7 minutes, depending on the specific eclipse.",
+                "A typical total solar eclipse can last for several hours.",
+                "A typical total solar eclipse can last for just a few seconds."
+            ]
+        },
+        {
+            "number": 18,
+            "question": "What is the corona during a total solar eclipse?",
+            "correct_answer": "The corona is the Sun's outer atmosphere that becomes visible during a total solar eclipse as a glowing, pearly-white halo surrounding the darkened Sun.",
+            "choices": [
+                "The corona is the Sun's outer atmosphere that becomes visible during a total solar eclipse as a glowing, pearly-white halo surrounding the darkened Sun.",
+                "The corona is the Sun's core that becomes visible during a total solar eclipse.",
+                "The corona is the Earth's outer atmosphere that becomes visible during a total solar eclipse."
+            ]
+        },
+        {
+            "number": 19,
+            "question": "How can you safely view a total solar eclipse?",
+            "correct_answer": "To safely view a total solar eclipse, you should use eclipse glasses or solar viewers that meet safety standards to protect your eyes from harmful solar radiation.",
+            "choices": [
+                "To safely view a total solar eclipse, you should use eclipse glasses or solar viewers that meet safety standards to protect your eyes from harmful solar radiation.",
+                "To safely view a total solar eclipse, you should use regular sunglasses.",
+                "To safely view a total solar eclipse, you should look directly at the Sun without any protection."
+            ]
+        },
+        {
+            "number": 20,
+            "question": "What is the 'diamond ring' effect during a total solar eclipse?",
+            "correct_answer": "The 'diamond ring' effect is a brief moment just before and after the total phase of a total solar eclipse when a single point of the Sun's surface is visible, resembling a sparkling diamond ring.",
+            "choices": [
+                "The 'diamond ring' effect is a brief moment just before and after the total phase of a total solar eclipse when a single point of the Sun's surface is visible, resembling a sparkling diamond ring.",
+                "The 'diamond ring' effect is a continuous phenomenon during a total solar eclipse.",
+                "The 'diamond ring' effect is an effect caused by the Moon's shadow."
+            ]
+        },
+        {
+            "number": 21,
+            "question": "What is a penumbral lunar eclipse?",
+            "correct_answer": "A penumbral lunar eclipse is a type of lunar eclipse where the Moon passes through the Earth's penumbral shadow, resulting in a subtle darkening or shading of the Moon.",
+            "choices": [
+                "A penumbral lunar eclipse is a type of lunar eclipse where the Moon passes through the Earth's penumbral shadow, resulting in a subtle darkening or shading of the Moon.",
+                "A penumbral lunar eclipse is a type of solar eclipse.",
+                "A penumbral lunar eclipse is when the Moon turns completely black."
+            ]
+        },
+        {
+            "number": 22,
+            "question": "What is a partial lunar eclipse?",
+            "correct_answer": "A partial lunar eclipse occurs when only a portion of the Moon enters the Earth's umbral shadow, causing part of the Moon to darken.",
+            "choices": [
+                "A partial lunar eclipse occurs when only a portion of the Moon enters the Earth's umbral shadow, causing part of the Moon to darken.",
+                "A partial lunar eclipse occurs when the Moon completely enters the Earth's umbral shadow.",
+                "A partial lunar eclipse occurs when the Moon moves away from the Earth."
+            ]
+        },
+        {
+            "number": 23,
+            "question": "What is a total lunar eclipse?",
+            "correct_answer": "A total lunar eclipse occurs when the entire Moon passes into the Earth's umbral shadow, causing it to appear dark and reddish.",
+            "choices": [
+                "A total lunar eclipse occurs when the entire Moon passes into the Earth's umbral shadow, causing it to appear dark and reddish.",
+                "A total lunar eclipse occurs when the Moon partially enters the Earth's umbral shadow.",
+                "A total lunar eclipse occurs when the Moon moves away from the Earth."
+            ]
+        },
+        {
+            "number": 24,
+            "question": "How does the Moon appear during a total lunar eclipse?",
+            "correct_answer": "During a total lunar eclipse, the Moon can appear reddish due to the Earth's atmosphere scattering and bending sunlight, allowing longer wavelengths (such as red and orange) to reach and illuminate the Moon.",
+            "choices": [
+                "During a total lunar eclipse, the Moon can appear reddish due to the Earth's atmosphere scattering and bending sunlight, allowing longer wavelengths (such as red and orange) to reach and illuminate the Moon.",
+                "During a total lunar eclipse, the Moon appears blue.",
+                "During a total lunar eclipse, the Moon is completely dark."
+            ]
+        },
+        {
+            "number": 25,
+            "question": "Why does the Moon turn red during a total lunar eclipse?",
+            "correct_answer": "The Moon turns red during a total lunar eclipse because the Earth's atmosphere scatters shorter wavelengths of light (blue and green) and allows longer wavelengths (red and orange) to pass through and illuminate the Moon.",
+            "choices": [
+                "The Moon turns red during a total lunar eclipse because the Earth's atmosphere scatters shorter wavelengths of light (blue and green) and allows longer wavelengths (red and orange) to pass through and illuminate the Moon.",
+                "The Moon turns red during a total lunar eclipse due to lunar dust.",
+                "The Moon turns red during a total lunar eclipse because it disappears."
+            ]
+        },
+        {
+            "number": 26,
+            "question": "What is the Earth's umbral shadow during a lunar eclipse?",
+            "correct_answer": "The Earth's umbral shadow is the darkest part of the Earth's shadow, and it is responsible for the total phase of a lunar eclipse when the Moon is entirely within this shadow.",
+            "choices": [
+                "The Earth's umbral shadow is the darkest part of the Earth's shadow, and it is responsible for the total phase of a lunar eclipse when the Moon is entirely within this shadow.",
+                "The Earth's umbral shadow is the bright part of the Earth's shadow.",
+                "The Earth's umbral shadow has no effect during a lunar eclipse."
+            ]
+        },
+        {
+            "number": 27,
+            "question": "How does the Moon pass through Earth's shadow during a lunar eclipse?",
+            "correct_answer": "The Moon passes through Earth's shadow during a lunar eclipse as it moves along its orbit, aligning with the Earth and the Sun in such a way that it enters the shadow cast by Earth.",
+            "choices": [
+                "The Moon passes through Earth's shadow during a lunar eclipse as it moves along its orbit, aligning with the Earth and the Sun in such a way that it enters the shadow cast by Earth.",
+                "The Moon passes through Earth's shadow during a lunar eclipse by changing its color.",
+                "The Moon passes through Earth's shadow during a lunar eclipse by moving away from the Earth."
+            ]
+        },
+        {
+            "number": 28,
+            "question": "How long does a typical lunar eclipse last?",
+            "correct_answer": "The duration of a lunar eclipse can vary, but a typical total lunar eclipse may last for a few hours, including the partial phases before and after totality.",
+            "choices": [
+                "The duration of a lunar eclipse can vary, but a typical total lunar eclipse may last for a few hours, including the partial phases before and after totality.",
+                "The duration of a lunar eclipse is always less than one hour.",
+                "The duration of a lunar eclipse is always more than one day."
+            ]
+        },
+        {
+            "number": 29,
+            "question": "What causes the different phases of a lunar eclipse?",
+            "correct_answer": "The different phases of a lunar eclipse are caused by the Moon's movement through the Earth's penumbral shadow (penumbral phase), partial shadow (partial phase), and umbral shadow (total phase).",
+            "choices": [
+                "The different phases of a lunar eclipse are caused by the Moon's movement through the Earth's penumbral shadow (penumbral phase), partial shadow (partial phase), and umbral shadow (total phase).",
+                "The different phases of a lunar eclipse are caused by the Moon's movement through the Earth's umbral shadow.",
+                "The different phases of a lunar eclipse are caused by the Moon's rotation."
+            ]
+        },
+        {
+            "number": 30,
+            "question": "How can you safely view a lunar eclipse?",
+            "correct_answer": "You can safely view a lunar eclipse with the naked eye, as there is no risk of eye damage when observing the Moon during an eclipse.",
+            "choices": [
+                "You can safely view a lunar eclipse with the naked eye, as there is no risk of eye damage when observing the Moon during an eclipse.",
+                "You can safely view a lunar eclipse with eclipse glasses.",
+                "You can safely view a lunar eclipse by staring directly at the Moon."
+            ]
+        },
+        {
+            "number": 31,
+            "question": "What is an eclipse season?",
+            "correct_answer": "An eclipse season is a period of approximately 34 days when the Sun, Moon, and Earth are aligned, increasing the likelihood of eclipses.",
+            "choices": [
+                "An eclipse season is a period of approximately 34 days when the Sun, Moon, and Earth are aligned, increasing the likelihood of eclipses.",
+                "An eclipse season is a period of 365 days.",
+                "An eclipse season is a period of 7 days."
+            ]
+        },
+        {
+            "number": 32,
+            "question": "Why do eclipse seasons occur approximately every six months?",
+            "correct_answer": "Eclipse seasons occur approximately every six months because the Moon's orbit is tilted relative to Earth's orbit, resulting in two opportunities each year for the alignment of the celestial bodies.",
+            "choices": [
+                "Eclipse seasons occur approximately every six months because the Moon's orbit is tilted relative to Earth's orbit, resulting in two opportunities each year for the alignment of the celestial bodies.",
+                "Eclipse seasons occur approximately every six years.",
+                "Eclipse seasons occur approximately every six days."
+            ]
+        },
+        {
+            "number": 33,
+            "question": "How do scientists predict when and where eclipses will occur?",
+            "correct_answer": "Scientists use mathematical calculations and precise measurements of celestial motions to predict when and where eclipses will occur.",
+            "choices": [
+                "Scientists use mathematical calculations and precise measurements of celestial motions to predict when and where eclipses will occur.",
+                "Scientists predict eclipses based on random chance.",
+                "Scientists predict eclipses by observing animal behavior."
+            ]
+        },
+        {
+            "number": 34,
+            "question": "What is the role of the Saros cycle in eclipse prediction?",
+            "correct_answer": "The Saros cycle is a cycle of eclipses that repeats approximately every 18 years and 11 days. It's used to predict when eclipses will occur and how they will repeat over time.",
+            "choices": [
+                "The Saros cycle is a cycle of eclipses that repeats approximately every 18 years and 11 days. It's used to predict when eclipses will occur and how they will repeat over time.",
+                "The Saros cycle has no role in eclipse prediction.",
+                "The Saros cycle is a weather pattern during eclipses."
+            ]
+        },
+        {
+            "number": 35,
+            "question": "What is a double eclipse?",
+            "correct_answer": "A double eclipse is a rare astronomical event when both a solar eclipse and a lunar eclipse occur within a short period, typically less than two weeks apart.",
+            "choices": [
+                "A double eclipse is a rare astronomical event when both a solar eclipse and a lunar eclipse occur within a short period, typically less than two weeks apart.",
+                "A double eclipse is a common event that happens every month.",
+                "A double eclipse is a fictional event."
+            ]
+        },
+        {
+            "number": 36,
+            "question": "What are the celestial conditions required for a double eclipse to occur?",
+            "correct_answer": "A double eclipse requires specific alignments of the Sun, Moon, and Earth within a short timeframe, resulting in a solar eclipse followed by a lunar eclipse or vice versa.",
+            "choices": [
+                "A double eclipse requires specific alignments of the Sun, Moon, and Earth within a short timeframe, resulting in a solar eclipse followed by a lunar eclipse or vice versa.",
+                "A double eclipse requires random celestial alignments.",
+                "A double eclipse requires only one celestial body."
+            ]
+        },
+        {
+            "number": 37,
+            "question": "How does the Moon's distance from Earth affect the appearance of total solar eclipses?",
+            "correct_answer": "The Moon's distance from Earth can affect the appearance of total solar eclipses. When the Moon is closer to Earth (perigee), it can appear larger and completely cover the Sun, creating longer and more impressive total eclipses.",
+            "choices": [
+                "The Moon's distance from Earth can affect the appearance of total solar eclipses. When the Moon is closer to Earth (perigee), it can appear larger and completely cover the Sun, creating longer and more impressive total eclipses.",
+                "The Moon's distance from Earth has no effect on total solar eclipses.",
+                "The Moon's distance from Earth affects the color of the Sun during a total solar eclipse."
+            ]
+        },
+        {
+            "number": 38,
+            "question": "What is the significance of the Great American Eclipse of 2017?",
+            "correct_answer": "The Great American Eclipse of 2017 was significant because it was a total solar eclipse visible across a narrow path in the United States from the West Coast to the East Coast, capturing the attention of millions.",
+            "choices": [
+                "The Great American Eclipse of 2017 was significant because it was a total solar eclipse visible across a narrow path in the United States from the West Coast to the East Coast, capturing the attention of millions.",
+                "The Great American Eclipse of 2017 had no significance.",
+                "The Great American Eclipse of 2017 was visible worldwide."
+            ]
+        },
+        {
+            "number": 39,
+            "question": "How do solar eclipses impact wildlife and nature?",
+            "correct_answer": "Solar eclipses can affect wildlife and nature by causing animals to exhibit unusual behaviors, and plants may respond to changes in light and temperature during an eclipse.",
+            "choices": [
+                "Solar eclipses can affect wildlife and nature by causing animals to exhibit unusual behaviors, and plants may respond to changes in light and temperature during an eclipse.",
+                "Solar eclipses have no impact on wildlife and nature.",
+                "Solar eclipses cause animals to become invisible."
+            ]
+        },
+        {
+            "number": 40,
+            "question": "What is the cultural and historical significance of eclipses in various societies?",
+            "correct_answer": "Eclipses have held cultural and historical significance in many societies throughout history. They have often been seen as omens, symbols of celestial events, and sources of mythological stories, shaping cultural beliefs and practices.",
+            "choices": [
+                "Eclipses have held cultural and historical significance in many societies throughout history. They have often been seen as omens, symbols of celestial events, and sources of mythological stories, shaping cultural beliefs and practices.",
+                "Eclipses have no cultural or historical significance.",
+                "Eclipses have always been accurately understood by all societies."
+            ]
+        }
+    ]
+}
