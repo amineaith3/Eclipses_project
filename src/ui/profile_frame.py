@@ -17,9 +17,6 @@ class ProfileFrame(ctk.CTkFrame):
         
         btn_reset = ctk.CTkButton(self, text="Reset Account", font=ctk.CTkFont(size=14), fg_color="#f44336", hover_color="#d32f2f", command=self.reset_account)
         btn_reset.grid(row=3, column=0, pady=(40, 10))
-        
-        btn_back = ctk.CTkButton(self, text="Back to Menu", font=ctk.CTkFont(size=18), height=50, fg_color="transparent", border_width=2, command=lambda: self.controller.show_frame("menu"))
-        btn_back.grid(row=4, column=0, pady=10)
 
     def reset_account(self):
         self.controller.gamification.reset_account()

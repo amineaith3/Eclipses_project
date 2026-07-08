@@ -32,11 +32,8 @@ class QuizSetupFrame(ctk.CTkFrame):
         badge_hint.grid(row=6, column=0, pady=(0, 20))
 
         # Start
-        btn_start = ctk.CTkButton(self, text="Start Quiz", font=ctk.CTkFont(size=20, weight="bold"), height=60, command=self.start)
-        btn_start.grid(row=7, column=0, pady=10)
-        
-        btn_back = ctk.CTkButton(self, text="Back to Menu", font=ctk.CTkFont(size=16), height=40, fg_color="transparent", border_width=2, command=lambda: self.controller.show_frame("menu"))
-        btn_back.grid(row=8, column=0, pady=10)
+        btn_start = ctk.CTkButton(self, text="Start Quiz", font=ctk.CTkFont(size=20, weight="bold"), height=60, fg_color="#4a148c", hover_color="#6a1b9a", command=self.start)
+        btn_start.grid(row=7, column=0, pady=(20, 10))
 
     def update_view(self):
         cats = self.controller.quiz_manager.get_categories()

@@ -16,6 +16,20 @@ class GamificationManager:
         os.makedirs(self.save_dir, exist_ok=True)
         self.progress_file = os.path.join(self.save_dir, "user_progress.json")
         
+        self.all_badges = {
+            "Astronomer": "Used the Eclipse Simulator.",
+            "Novice Chaser": "Completed your first quiz.",
+            "Silver Corona": "Scored 80%+ on a 20+ question quiz.",
+            "Golden Umbra": "Scored 90%+ on a 20+ question quiz.",
+            "Diamond Ring Master": "Scored 100% on a 20+ question quiz.",
+            "Encyclopedia Worm": "Explored the Interactive Encyclopedia.",
+            "Eclipse Marathoner": "Completed a massive 50+ question quiz.",
+            "Master Historian": "Scored 100% on a History & Myths quiz.",
+            "Astrophysicist": "Scored 100% on a Science & Astrophysics quiz.",
+            "Lunar Scholar": "Scored 100% on a Lunar Eclipses quiz.",
+            "Solar Specialist": "Scored 100% on a Solar Eclipses quiz."
+        }
+        
         self.user_data = self.default_data()
         self.load()
 
@@ -56,20 +70,32 @@ class GamificationManager:
             return True
         return False
         
-    def evaluate_quiz_badges(self, score, total_questions):
+    def evaluate_quiz_badges(self, score, total_questions, category="All Categories"):
         self.user_data["quizzes_taken"] += 1
-        self.award_badge("Scholar")
-            
+        self.award_badge("Novice Chaser")
+        
+        pct = score / total_questions if total_questions > 0 else 0
+        
         if total_questions >= 20:
-            self.award_badge("Novice Eclipse Chaser")
-            
-            pct = score / total_questions
             if pct >= 0.8:
                 self.award_badge("Silver Corona")
             if pct >= 0.9:
                 self.award_badge("Golden Umbra")
             if pct == 1.0:
                 self.award_badge("Diamond Ring Master")
+                
+        if total_questions >= 50:
+            self.award_badge("Eclipse Marathoner")
+            
+        if pct == 1.0 and score > 0:
+            if category == "History & Myths":
+                self.award_badge("Master Historian")
+            elif category == "Science & Astrophysics":
+                self.award_badge("Astrophysicist")
+            elif category == "Lunar Eclipses":
+                self.award_badge("Lunar Scholar")
+            elif category == "Solar Eclipses":
+                self.award_badge("Solar Specialist")
                 
         self.save()
 

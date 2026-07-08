@@ -37,7 +37,3 @@ This project has been extensively overhauled from a simple Pygame prototype into
    ```bash
    python main.py
    ```
-
-## 🎥 Original Educational Video
-If you want to view the original educational video that inspired this project, you can watch it here:
-[Link to the Video](https://drive.google.com/file/d/1X5XwW19XvjC5gL_yA3Z88uQ-D-X7T-e0/view?usp=sharing)

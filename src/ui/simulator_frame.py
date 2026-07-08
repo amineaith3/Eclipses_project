@@ -12,8 +12,8 @@ class SimulatorFrame(ctk.CTkFrame):
         title = ctk.CTkLabel(self, text="Solar Eclipse Simulator", font=ctk.CTkFont(size=28, weight="bold"))
         title.grid(row=0, column=0, pady=10)
         
-        self.sim_view_var = ctk.StringVar(value="Earth View")
-        self.seg_btn = ctk.CTkSegmentedButton(self, values=["Earth View", "Space View"], variable=self.sim_view_var, command=self.change_sim_view)
+        self.sim_view_var = ctk.StringVar(value="Total Solar")
+        self.seg_btn = ctk.CTkSegmentedButton(self, values=["Total Solar", "Annular Solar", "Lunar Eclipse", "Space Orbit"], variable=self.sim_view_var, command=self.change_sim_view)
         self.seg_btn.grid(row=1, column=0, pady=10)
 
         self.canvas_width = 800
@@ -32,22 +32,28 @@ class SimulatorFrame(ctk.CTkFrame):
         self.slider.set(100)
         self.slider.grid(row=0, column=0, columnspan=3, sticky="ew", pady=(0, 20))
 
-        btn_auto = ctk.CTkButton(controls_frame, text="Auto-Play", command=self.auto_play_sim)
-        btn_auto.grid(row=1, column=0, sticky="w")
-
-        btn_back = ctk.CTkButton(controls_frame, text="Back to Menu", fg_color="transparent", border_width=2, command=self.exit_simulator)
-        btn_back.grid(row=1, column=2, sticky="e")
+        btn_auto = ctk.CTkButton(controls_frame, text="Auto-Play", command=self.auto_play_sim, fg_color="#4a148c", hover_color="#6a1b9a")
+        btn_auto.grid(row=1, column=1, pady=10)
         
         self.auto_playing = False
         self.draw_earth_view()
+        
+        # Award Astronomer badge for opening the simulator
+        self.controller.gamification.award_badge("Astronomer")
+        self.controller.gamification.user_data["simulations_watched"] += 1
+        self.controller.gamification.save()
 
     def change_sim_view(self, value):
         self.canvas.delete("all")
         self.slider.set(100)
-        if value == "Earth View":
+        if value == "Total Solar" or value == "Earth View":
             self.draw_earth_view()
-        else:
+        elif value == "Annular Solar":
+            self.draw_annular_view()
+        elif value == "Space Orbit" or value == "Space View":
             self.draw_space_view()
+        else:
+            self.draw_lunar_view()
         self.update_simulation(100)
 
     def draw_earth_view(self):
@@ -61,6 +67,22 @@ class SimulatorFrame(ctk.CTkFrame):
                                 fill="#ffcc00", outline="#ff9900", width=2, tags="sun")
                                            
         self.moon_radius = 78
+        self.moon_start_x = 100
+        self.canvas.create_oval(self.moon_start_x - self.moon_radius, sun_y - self.moon_radius, 
+                                self.moon_start_x + self.moon_radius, sun_y + self.moon_radius, 
+                                fill="#1a1a1a", outline="#0a0a0a", width=2, tags="moon")
+
+    def draw_annular_view(self):
+        sun_x, sun_y = self.canvas_width // 2, self.canvas_height // 2
+        self.sun_radius = 80
+        
+        self.canvas.create_oval(sun_x - 100, sun_y - 100, sun_x + 100, sun_y + 100, fill="#331a00", outline="", tags="sun_glow2")
+        self.canvas.create_oval(sun_x - 90, sun_y - 90, sun_x + 90, sun_y + 90, fill="#663300", outline="", tags="sun_glow1")
+        self.canvas.create_oval(sun_x - self.sun_radius, sun_y - self.sun_radius, 
+                                sun_x + self.sun_radius, sun_y + self.sun_radius, 
+                                fill="#ffcc00", outline="#ff9900", width=2, tags="sun")
+                                           
+        self.moon_radius = 65  # Smaller than sun for annular
         self.moon_start_x = 100
         self.canvas.create_oval(self.moon_start_x - self.moon_radius, sun_y - self.moon_radius, 
                                 self.moon_start_x + self.moon_radius, sun_y + self.moon_radius, 
@@ -84,12 +106,34 @@ class SimulatorFrame(ctk.CTkFrame):
                                 moon_x + self.space_moon_r, sun_y + self.space_moon_r, 
                                 fill="#888888", outline="#555555", tags="space_moon")
 
+    def draw_lunar_view(self):
+        earth_x, earth_y = 150, self.canvas_height // 2
+        earth_r = 90
+        
+        # Penumbra
+        self.canvas.create_polygon(earth_x, earth_y - earth_r - 50, earth_x + 800, earth_y - earth_r - 20, 
+                                   earth_x + 800, earth_y + earth_r + 20, earth_x, earth_y + earth_r + 50, 
+                                   fill="#333333", tags="lunar_penumbra", stipple="gray25")
+        
+        # Umbra
+        self.canvas.create_polygon(earth_x, earth_y - earth_r, earth_x + 800, earth_y - earth_r + 40, 
+                                   earth_x + 800, earth_y + earth_r - 40, earth_x, earth_y + earth_r, 
+                                   fill="#1a0000", tags="lunar_umbra", stipple="gray50")
+                                   
+        self.canvas.create_oval(earth_x - earth_r, earth_y - earth_r, earth_x + earth_r, earth_y + earth_r, fill="#1976d2", outline="#0d47a1", tags="earth")
+        
+        self.lunar_moon_r = 30
+        moon_x = 800
+        self.canvas.create_oval(moon_x - self.lunar_moon_r, earth_y - self.lunar_moon_r, 
+                                moon_x + self.lunar_moon_r, earth_y + self.lunar_moon_r, 
+                                fill="#dddddd", outline="#aaaaaa", tags="lunar_moon")
+
     def update_simulation(self, value):
         moon_x = float(value)
         sun_y = self.canvas_height // 2
         view = self.sim_view_var.get()
         
-        if view == "Earth View":
+        if view == "Total Solar" or view == "Earth View":
             self.canvas.coords("moon", moon_x - self.moon_radius, sun_y - self.moon_radius,
                                           moon_x + self.moon_radius, sun_y + self.moon_radius)
             center_x = self.canvas_width // 2
@@ -110,7 +154,23 @@ class SimulatorFrame(ctk.CTkFrame):
                 info = "NO ECLIPSE:\nThe Moon and Sun are not aligned. (A perfect straight-line alignment is called Syzygy)."
             self.info_lbl.configure(text=info)
             
-        elif view == "Space View":
+        elif view == "Annular Solar":
+            self.canvas.coords("moon", moon_x - self.moon_radius, sun_y - self.moon_radius,
+                                          moon_x + self.moon_radius, sun_y + self.moon_radius)
+            center_x = self.canvas_width // 2
+            distance = abs(moon_x - center_x)
+            
+            if distance < 10:
+                info = ("ANNULAR ECLIPSE (Ring of Fire):\n"
+                        "Because the Moon is at apogee (far from Earth), its apparent size is smaller than the Sun. It cannot completely cover the solar disk, leaving a blazing 'Ring of Fire' visible around its edges!")
+            elif distance < self.sun_radius * 2:
+                info = ("PARTIAL ECLIPSE:\n"
+                        "The Moon is partially obscuring the Sun. Warning: You must keep your ISO 12312-2 solar glasses on at all times during an annular eclipse!")
+            else:
+                info = "NO ECLIPSE:\nThe Moon and Sun are not aligned."
+            self.info_lbl.configure(text=info)
+            
+        elif view == "Space Orbit" or view == "Space View":
             earth_cx = 650
             earth_cy = self.canvas_height // 2
             orbit_r_x = 250
@@ -167,6 +227,25 @@ class SimulatorFrame(ctk.CTkFrame):
                 info = "NO ECLIPSE:\nThe Moon's shadow misses the Earth entirely due to its 5-degree orbital tilt."
             self.info_lbl.configure(text=info)
 
+        elif view == "Lunar Eclipse" or view == "Lunar View":
+            earth_y = self.canvas_height // 2
+            moon_x = 800 - float(value) * 0.8
+            self.canvas.coords("lunar_moon", moon_x - self.lunar_moon_r, earth_y - self.lunar_moon_r,
+                                              moon_x + self.lunar_moon_r, earth_y + self.lunar_moon_r)
+                                              
+            if moon_x < 650 and moon_x > 250:
+                self.canvas.itemconfig("lunar_moon", fill="#cc3300", outline="#990000") # Blood Moon
+                info = "TOTAL LUNAR ECLIPSE (Blood Moon):\nThe Moon passes completely into Earth's dark Umbra. Rayleigh scattering filters out blue light, bending only red light into the shadow, giving the Moon a deep reddish glow."
+            elif moon_x <= 250 or moon_x >= 650 and moon_x < 750:
+                self.canvas.itemconfig("lunar_moon", fill="#999999", outline="#777777")
+                info = "PARTIAL / PENUMBRAL ECLIPSE:\nThe Moon enters Earth's outer Penumbra shadow, appearing slightly dimmed, before slowly entering the Umbra."
+            else:
+                self.canvas.itemconfig("lunar_moon", fill="#dddddd", outline="#aaaaaa")
+                info = "FULL MOON:\nThe Moon is brightly illuminated by the Sun. A Lunar Eclipse can only happen during a Full Moon phase."
+                
+            self.info_lbl.configure(text=info)
+            self.canvas.tag_raise("earth")
+
     def auto_play_sim(self):
         if self.auto_playing: return
         self.auto_playing = True
@@ -183,10 +262,3 @@ class SimulatorFrame(ctk.CTkFrame):
             self.after(20, self.animate_sim)
         else:
             self.auto_playing = False
-
-    def exit_simulator(self):
-        self.auto_playing = False
-        self.controller.gamification.user_data["simulations_watched"] += 1
-        self.controller.gamification.save()
-        self.controller.gamification.award_badge("Astronomer")
-        self.controller.show_frame("menu")

@@ -72,9 +72,10 @@ class QuizFrame(ctk.CTkFrame):
         progress_val = (self.current_q_index) / len(self.questions)
         self.progress_bar.set(progress_val)
 
-        choices = q_data["choices"].copy()
+        choices = q_data["options"].copy()
         random.shuffle(choices)
-        self.current_correct_answer = q_data["correct_answer"]
+        self.current_correct_answer = q_data["answer"]
+        self.current_explanation = q_data.get("explanation", self.current_correct_answer)
         self.current_choices = choices
 
         for i, btn in enumerate(self.choice_buttons):
@@ -150,7 +151,7 @@ class QuizFrame(ctk.CTkFrame):
         lbl = ctk.CTkLabel(popup, text="Let's Review That Concept 🧠", font=ctk.CTkFont(size=22, weight="bold"))
         lbl.pack(pady=20)
         
-        text = ctk.CTkLabel(popup, text=self.current_correct_answer, font=ctk.CTkFont(size=16), wraplength=550, justify="left")
+        text = ctk.CTkLabel(popup, text=self.current_explanation, font=ctk.CTkFont(size=16), wraplength=550, justify="left")
         text.pack(padx=20, pady=10)
         
         btn = ctk.CTkButton(popup, text="Got it!", command=popup.destroy)

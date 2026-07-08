@@ -18,11 +18,8 @@ class ResultFrame(ctk.CTkFrame):
         self.lbl_badges = ctk.CTkLabel(self, text="", font=ctk.CTkFont(size=16, weight="bold"), text_color="#4caf50")
         self.lbl_badges.grid(row=3, column=0, pady=10)
 
-        btn_restart = ctk.CTkButton(self, text="Play Again", font=ctk.CTkFont(size=18), height=50, command=lambda: self.controller.show_frame("quiz_setup"))
+        btn_restart = ctk.CTkButton(self, text="Play Again", font=ctk.CTkFont(size=18), height=50, fg_color="#4a148c", hover_color="#6a1b9a", command=lambda: self.controller.show_frame("quiz_setup"))
         btn_restart.grid(row=4, column=0, pady=20)
-
-        btn_home = ctk.CTkButton(self, text="Back to Menu", font=ctk.CTkFont(size=18), height=50, fg_color="transparent", border_width=2, command=lambda: self.controller.show_frame("menu"))
-        btn_home.grid(row=5, column=0, pady=10)
         
     def grid(self, *args, **kwargs):
         super().grid(*args, **kwargs)
@@ -42,6 +39,17 @@ class ResultFrame(ctk.CTkFrame):
             msg = "Good job! Keep exploring."
         else:
             msg = "Keep exploring to learn more about eclipses!"
-        self.lbl_msg.configure(text=msg)
+        self.controller.gamification.evaluate_quiz_badges(score, total, self.controller.current_category)
         
-        self.controller.gamification.evaluate_quiz_badges(score, total)
+        if pct == 1.0 and total >= 20:
+            # Short delay to allow the frame to render before popping the dialog
+            self.after(500, self.trigger_certificate)
+
+    def trigger_certificate(self):
+        dialog = ctk.CTkInputDialog(text="Congratulations on Diamond Ring Master!\nEnter your name for your official Certificate:", title="Certificate Generation")
+        name = dialog.get_input()
+        if name:
+            from src.core.certificate import CertificateGenerator
+            path = CertificateGenerator.generate(name)
+            if path:
+                self.lbl_badges.configure(text=f"✅ Certificate saved to your Desktop!", text_color="#4caf50")
