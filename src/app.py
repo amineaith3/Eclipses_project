@@ -22,6 +22,16 @@ class EclipseApp(ctk.CTk):
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure(0, weight=1)
         
+        import tkinter as tk
+        import os
+        icon_path = os.path.join(os.path.dirname(__file__), '..', 'Astronest.png')
+        if os.path.exists(icon_path):
+            try:
+                img = tk.PhotoImage(file=icon_path)
+                self.iconphoto(False, img)
+            except Exception as e:
+                print("Could not set icon:", e)
+        
         self.gamification = GamificationManager(self)
         self.quiz_manager = QuizManager()
         
