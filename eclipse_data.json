@@ -8,7 +8,8 @@
                 "A solar eclipse occurs when the Moon passes between the Earth and the Sun, blocking out the Sun's light from a specific region on Earth.",
                 "A solar eclipse is a lunar event.",
                 "A solar eclipse happens when the Earth passes between the Moon and the Sun."
-            ]
+            ],
+            "category": "Solar Eclipses"
         },
         {
             "number": 2,
@@ -18,7 +19,8 @@
                 "A lunar eclipse occurs when the Earth passes between the Sun and the Moon, casting its shadow on the Moon's surface, causing it to darken.",
                 "A lunar eclipse is a solar event.",
                 "A lunar eclipse occurs when the Moon passes between the Earth and the Sun."
-            ]
+            ],
+            "category": "Astrophysics"
         },
         {
             "number": 3,
@@ -28,7 +30,8 @@
                 "A solar eclipse involves the Moon blocking the Sun's light on Earth, while a lunar eclipse involves the Earth casting a shadow on the Moon.",
                 "A solar eclipse involves the Earth casting a shadow on the Moon.",
                 "A lunar eclipse involves the Moon blocking the Sun's light on Earth."
-            ]
+            ],
+            "category": "Lunar Eclipses"
         },
         {
             "number": 4,
@@ -38,7 +41,8 @@
                 "The primary celestial bodies involved in a solar eclipse are the Earth, Moon, and Sun.",
                 "The primary celestial bodies involved in a solar eclipse are the Earth and the Moon.",
                 "The primary celestial body involved in a solar eclipse is the Moon."
-            ]
+            ],
+            "category": "Astrophysics"
         },
         {
             "number": 5,
@@ -48,7 +52,8 @@
                 "The primary celestial bodies involved in a lunar eclipse are the Earth, Moon, and Sun.",
                 "The primary celestial bodies involved in a lunar eclipse are the Earth and the Moon.",
                 "The primary celestial body involved in a lunar eclipse is the Earth."
-            ]
+            ],
+            "category": "Solar Eclipses"
         },
         {
             "number": 6,
@@ -58,7 +63,8 @@
                 "The Moon casts a shadow on Earth during a solar eclipse because it passes between the Earth and the Sun, blocking the Sun's light.",
                 "The Moon casts a shadow on Earth during a solar eclipse because the Earth passes between the Moon and the Sun.",
                 "The Moon casts a shadow on Earth during a solar eclipse because it moves away from the Earth."
-            ]
+            ],
+            "category": "General Trivia"
         },
         {
             "number": 7,
@@ -68,7 +74,8 @@
                 "Solar eclipses occur approximately every 18 months somewhere on Earth.",
                 "Solar eclipses occur approximately every 5 years.",
                 "Solar eclipses occur approximately every month."
-            ]
+            ],
+            "category": "Solar Eclipses"
         },
         {
             "number": 8,
@@ -78,7 +85,8 @@
                 "Lunar eclipses occur, on average, about two to four times a year.",
                 "Lunar eclipses occur, on average, once every century.",
                 "Lunar eclipses occur, on average, about once a month."
-            ]
+            ],
+            "category": "Astrophysics"
         },
         {
             "number": 9,
@@ -88,7 +96,8 @@
                 "The different types of solar eclipses are total solar eclipses, partial solar eclipses, and annular solar eclipses.",
                 "The different types of solar eclipses are total solar eclipses and partial lunar eclipses.",
                 "The different types of solar eclipses are annular solar eclipses and total lunar eclipses."
-            ]
+            ],
+            "category": "General Trivia"
         },
         {
             "number": 10,
@@ -98,7 +107,8 @@
                 "The phases of a total solar eclipse include the first contact (beginning of the eclipse), second contact (start of totality), third contact (end of totality), and fourth contact (end of the eclipse).",
                 "The phases of a total solar eclipse include the first contact and the last contact.",
                 "The phases of a total solar eclipse include the start of totality and the end of totality."
-            ]
+            ],
+            "category": "Astrophysics"
         },
         {
             "number": 11,
@@ -108,7 +118,8 @@
                 "The path of totality is the narrow region on Earth's surface where a total solar eclipse can be observed in its fullest.",
                 "The path of totality is the entire Earth's surface during a total solar eclipse.",
                 "The path of totality is the region where a partial solar eclipse can be observed."
-            ]
+            ],
+            "category": "History & Culture"
         },
         {
             "number": 12,
@@ -118,7 +129,8 @@
                 "During a total solar eclipse, the Moon's apparent size is slightly larger than the Sun's, allowing it to completely cover the Sun's disk.",
                 "During a total solar eclipse, the Moon's apparent size is smaller than the Sun's.",
                 "During a total solar eclipse, the Moon's apparent size is the same as the Sun's."
-            ]
+            ],
+            "category": "Lunar Eclipses"
         },
         {
             "number": 13,
@@ -128,7 +140,8 @@
                 "A partial solar eclipse occurs when only a portion of the Sun is obscured by the Moon, and it doesn't completely cover the Sun's disk.",
                 "A partial solar eclipse occurs when the Moon completely covers the Sun.",
                 "A partial solar eclipse occurs when the Earth casts a shadow on the Moon."
-            ]
+            ],
+            "category": "Astrophysics"
         },
         {
             "number": 14,
@@ -138,7 +151,8 @@
                 "An annular solar eclipse happens when the Moon covers the center of the Sun, leaving a ring or 'ring of fire' around the Sun's edges.",
                 "An annular solar eclipse happens when the Sun completely covers the Moon.",
                 "An annular solar eclipse happens when the Moon covers the Earth."
-            ]
+            ],
+            "category": "History & Culture"
         },
         {
             "number": 15,
@@ -148,7 +162,8 @@
                 "A hybrid solar eclipse is an eclipse that transitions from an annular eclipse to a total eclipse or vice versa along its path.",
                 "A hybrid solar eclipse is an eclipse that transitions from a lunar eclipse to a solar eclipse.",
                 "A hybrid solar eclipse is an eclipse that transitions from a total eclipse to an annular eclipse."
-            ]
+            ],
+            "category": "General Trivia"
         },
         {
             "number": 16,
@@ -158,7 +173,8 @@
                 "Total solar eclipses are considered rare events because they require precise alignment of the Sun, Moon, and Earth, and the path of totality is relatively narrow.",
                 "Total solar eclipses are not considered rare events.",
                 "Total solar eclipses are considered rare events because they happen every day."
-            ]
+            ],
+            "category": "General Trivia"
         },
         {
             "number": 17,
@@ -168,7 +184,8 @@
                 "A typical total solar eclipse can last for a few minutes, usually between 2 to 7 minutes, depending on the specific eclipse.",
                 "A typical total solar eclipse can last for several hours.",
                 "A typical total solar eclipse can last for just a few seconds."
-            ]
+            ],
+            "category": "General Trivia"
         },
         {
             "number": 18,
@@ -178,7 +195,8 @@
                 "The corona is the Sun's outer atmosphere that becomes visible during a total solar eclipse as a glowing, pearly-white halo surrounding the darkened Sun.",
                 "The corona is the Sun's core that becomes visible during a total solar eclipse.",
                 "The corona is the Earth's outer atmosphere that becomes visible during a total solar eclipse."
-            ]
+            ],
+            "category": "Astrophysics"
         },
         {
             "number": 19,
@@ -188,7 +206,8 @@
                 "To safely view a total solar eclipse, you should use eclipse glasses or solar viewers that meet safety standards to protect your eyes from harmful solar radiation.",
                 "To safely view a total solar eclipse, you should use regular sunglasses.",
                 "To safely view a total solar eclipse, you should look directly at the Sun without any protection."
-            ]
+            ],
+            "category": "Solar Eclipses"
         },
         {
             "number": 20,
@@ -198,7 +217,8 @@
                 "The 'diamond ring' effect is a brief moment just before and after the total phase of a total solar eclipse when a single point of the Sun's surface is visible, resembling a sparkling diamond ring.",
                 "The 'diamond ring' effect is a continuous phenomenon during a total solar eclipse.",
                 "The 'diamond ring' effect is an effect caused by the Moon's shadow."
-            ]
+            ],
+            "category": "Solar Eclipses"
         },
         {
             "number": 21,
@@ -208,7 +228,8 @@
                 "A penumbral lunar eclipse is a type of lunar eclipse where the Moon passes through the Earth's penumbral shadow, resulting in a subtle darkening or shading of the Moon.",
                 "A penumbral lunar eclipse is a type of solar eclipse.",
                 "A penumbral lunar eclipse is when the Moon turns completely black."
-            ]
+            ],
+            "category": "General Trivia"
         },
         {
             "number": 22,
@@ -218,7 +239,8 @@
                 "A partial lunar eclipse occurs when only a portion of the Moon enters the Earth's umbral shadow, causing part of the Moon to darken.",
                 "A partial lunar eclipse occurs when the Moon completely enters the Earth's umbral shadow.",
                 "A partial lunar eclipse occurs when the Moon moves away from the Earth."
-            ]
+            ],
+            "category": "Lunar Eclipses"
         },
         {
             "number": 23,
@@ -228,7 +250,8 @@
                 "A total lunar eclipse occurs when the entire Moon passes into the Earth's umbral shadow, causing it to appear dark and reddish.",
                 "A total lunar eclipse occurs when the Moon partially enters the Earth's umbral shadow.",
                 "A total lunar eclipse occurs when the Moon moves away from the Earth."
-            ]
+            ],
+            "category": "Solar Eclipses"
         },
         {
             "number": 24,
@@ -238,7 +261,8 @@
                 "During a total lunar eclipse, the Moon can appear reddish due to the Earth's atmosphere scattering and bending sunlight, allowing longer wavelengths (such as red and orange) to reach and illuminate the Moon.",
                 "During a total lunar eclipse, the Moon appears blue.",
                 "During a total lunar eclipse, the Moon is completely dark."
-            ]
+            ],
+            "category": "History & Culture"
         },
         {
             "number": 25,
@@ -248,7 +272,8 @@
                 "The Moon turns red during a total lunar eclipse because the Earth's atmosphere scatters shorter wavelengths of light (blue and green) and allows longer wavelengths (red and orange) to pass through and illuminate the Moon.",
                 "The Moon turns red during a total lunar eclipse due to lunar dust.",
                 "The Moon turns red during a total lunar eclipse because it disappears."
-            ]
+            ],
+            "category": "Lunar Eclipses"
         },
         {
             "number": 26,
@@ -258,7 +283,8 @@
                 "The Earth's umbral shadow is the darkest part of the Earth's shadow, and it is responsible for the total phase of a lunar eclipse when the Moon is entirely within this shadow.",
                 "The Earth's umbral shadow is the bright part of the Earth's shadow.",
                 "The Earth's umbral shadow has no effect during a lunar eclipse."
-            ]
+            ],
+            "category": "Lunar Eclipses"
         },
         {
             "number": 27,
@@ -268,7 +294,8 @@
                 "The Moon passes through Earth's shadow during a lunar eclipse as it moves along its orbit, aligning with the Earth and the Sun in such a way that it enters the shadow cast by Earth.",
                 "The Moon passes through Earth's shadow during a lunar eclipse by changing its color.",
                 "The Moon passes through Earth's shadow during a lunar eclipse by moving away from the Earth."
-            ]
+            ],
+            "category": "General Trivia"
         },
         {
             "number": 28,
@@ -278,7 +305,8 @@
                 "The duration of a lunar eclipse can vary, but a typical total lunar eclipse may last for a few hours, including the partial phases before and after totality.",
                 "The duration of a lunar eclipse is always less than one hour.",
                 "The duration of a lunar eclipse is always more than one day."
-            ]
+            ],
+            "category": "History & Culture"
         },
         {
             "number": 29,
@@ -288,7 +316,8 @@
                 "The different phases of a lunar eclipse are caused by the Moon's movement through the Earth's penumbral shadow (penumbral phase), partial shadow (partial phase), and umbral shadow (total phase).",
                 "The different phases of a lunar eclipse are caused by the Moon's movement through the Earth's umbral shadow.",
                 "The different phases of a lunar eclipse are caused by the Moon's rotation."
-            ]
+            ],
+            "category": "Astrophysics"
         },
         {
             "number": 30,
@@ -298,7 +327,8 @@
                 "You can safely view a lunar eclipse with the naked eye, as there is no risk of eye damage when observing the Moon during an eclipse.",
                 "You can safely view a lunar eclipse with eclipse glasses.",
                 "You can safely view a lunar eclipse by staring directly at the Moon."
-            ]
+            ],
+            "category": "General Trivia"
         },
         {
             "number": 31,
@@ -308,7 +338,8 @@
                 "An eclipse season is a period of approximately 34 days when the Sun, Moon, and Earth are aligned, increasing the likelihood of eclipses.",
                 "An eclipse season is a period of 365 days.",
                 "An eclipse season is a period of 7 days."
-            ]
+            ],
+            "category": "Solar Eclipses"
         },
         {
             "number": 32,
@@ -318,7 +349,8 @@
                 "Eclipse seasons occur approximately every six months because the Moon's orbit is tilted relative to Earth's orbit, resulting in two opportunities each year for the alignment of the celestial bodies.",
                 "Eclipse seasons occur approximately every six years.",
                 "Eclipse seasons occur approximately every six days."
-            ]
+            ],
+            "category": "Astrophysics"
         },
         {
             "number": 33,
@@ -328,7 +360,8 @@
                 "Scientists use mathematical calculations and precise measurements of celestial motions to predict when and where eclipses will occur.",
                 "Scientists predict eclipses based on random chance.",
                 "Scientists predict eclipses by observing animal behavior."
-            ]
+            ],
+            "category": "History & Culture"
         },
         {
             "number": 34,
@@ -338,7 +371,8 @@
                 "The Saros cycle is a cycle of eclipses that repeats approximately every 18 years and 11 days. It's used to predict when eclipses will occur and how they will repeat over time.",
                 "The Saros cycle has no role in eclipse prediction.",
                 "The Saros cycle is a weather pattern during eclipses."
-            ]
+            ],
+            "category": "History & Culture"
         },
         {
             "number": 35,
@@ -348,7 +382,8 @@
                 "A double eclipse is a rare astronomical event when both a solar eclipse and a lunar eclipse occur within a short period, typically less than two weeks apart.",
                 "A double eclipse is a common event that happens every month.",
                 "A double eclipse is a fictional event."
-            ]
+            ],
+            "category": "Lunar Eclipses"
         },
         {
             "number": 36,
@@ -358,7 +393,8 @@
                 "A double eclipse requires specific alignments of the Sun, Moon, and Earth within a short timeframe, resulting in a solar eclipse followed by a lunar eclipse or vice versa.",
                 "A double eclipse requires random celestial alignments.",
                 "A double eclipse requires only one celestial body."
-            ]
+            ],
+            "category": "History & Culture"
         },
         {
             "number": 37,
@@ -368,7 +404,8 @@
                 "The Moon's distance from Earth can affect the appearance of total solar eclipses. When the Moon is closer to Earth (perigee), it can appear larger and completely cover the Sun, creating longer and more impressive total eclipses.",
                 "The Moon's distance from Earth has no effect on total solar eclipses.",
                 "The Moon's distance from Earth affects the color of the Sun during a total solar eclipse."
-            ]
+            ],
+            "category": "Lunar Eclipses"
         },
         {
             "number": 38,
@@ -378,7 +415,8 @@
                 "The Great American Eclipse of 2017 was significant because it was a total solar eclipse visible across a narrow path in the United States from the West Coast to the East Coast, capturing the attention of millions.",
                 "The Great American Eclipse of 2017 had no significance.",
                 "The Great American Eclipse of 2017 was visible worldwide."
-            ]
+            ],
+            "category": "Solar Eclipses"
         },
         {
             "number": 39,
@@ -388,7 +426,8 @@
                 "Solar eclipses can affect wildlife and nature by causing animals to exhibit unusual behaviors, and plants may respond to changes in light and temperature during an eclipse.",
                 "Solar eclipses have no impact on wildlife and nature.",
                 "Solar eclipses cause animals to become invisible."
-            ]
+            ],
+            "category": "History & Culture"
         },
         {
             "number": 40,
@@ -398,7 +437,8 @@
                 "Eclipses have held cultural and historical significance in many societies throughout history. They have often been seen as omens, symbols of celestial events, and sources of mythological stories, shaping cultural beliefs and practices.",
                 "Eclipses have no cultural or historical significance.",
                 "Eclipses have always been accurately understood by all societies."
-            ]
+            ],
+            "category": "History & Culture"
         },
         {
             "number": 41,
@@ -408,7 +448,8 @@
                 "A solar eclipse can only occur during a New Moon phase.",
                 "A solar eclipse can only occur during a Full Moon phase.",
                 "A solar eclipse can occur during any phase of the Moon."
-            ]
+            ],
+            "category": "General Trivia"
         },
         {
             "number": 42,
@@ -418,7 +459,8 @@
                 "A lunar eclipse can only occur during a Full Moon phase.",
                 "A lunar eclipse can only occur during a New Moon phase.",
                 "A lunar eclipse can occur during any phase of the Moon."
-            ]
+            ],
+            "category": "General Trivia"
         },
         {
             "number": 43,
@@ -428,7 +470,8 @@
                 "Baily's beads are caused by sunlight shining through the rugged valleys and craters on the Moon's edge.",
                 "Baily's beads are caused by Earth's atmosphere distorting the sunlight.",
                 "Baily's beads are caused by solar flares erupting from the Sun."
-            ]
+            ],
+            "category": "General Trivia"
         },
         {
             "number": 44,
@@ -438,7 +481,8 @@
                 "A lunar eclipse can be viewed from anywhere on the night side of Earth.",
                 "A lunar eclipse can only be viewed from a narrow path on Earth.",
                 "A lunar eclipse can be viewed from anywhere on the day side of Earth."
-            ]
+            ],
+            "category": "Solar Eclipses"
         },
         {
             "number": 45,
@@ -448,7 +492,1058 @@
                 "The antumbra is the part of the shadow where the obscuring body appears entirely contained within the disc of the light source, creating an annular eclipse.",
                 "The antumbra is the darkest part of the shadow where the light source is completely blocked.",
                 "The antumbra is the lighter outer part of the shadow where the light source is only partially blocked."
-            ]
+            ],
+            "category": "Lunar Eclipses"
+        },
+        {
+            "question": "What is the maximum duration of totality during a solar eclipse?",
+            "choices": [
+                "7.5 minutes",
+                "2 minutes",
+                "15 minutes"
+            ],
+            "correct_answer": "7.5 minutes",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "What type of eclipse occurs when the Moon is at apogee?",
+            "choices": [
+                "Annular",
+                "Total",
+                "Partial"
+            ],
+            "correct_answer": "Annular",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "What filter is required to safely view the partial phases of a solar eclipse?",
+            "choices": [
+                "Solar viewing glasses (ISO 12312-2)",
+                "Standard sunglasses",
+                "Welder's glass shade 10"
+            ],
+            "correct_answer": "Solar viewing glasses (ISO 12312-2)",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "What is the dark central part of the Moon's shadow called?",
+            "choices": [
+                "Umbra",
+                "Penumbra",
+                "Antumbra"
+            ],
+            "correct_answer": "Umbra",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "What phenomenon creates a brilliant flash of light just before totality?",
+            "choices": [
+                "Diamond Ring Effect",
+                "Baily's Beads",
+                "Solar Prominence"
+            ],
+            "correct_answer": "Diamond Ring Effect",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "Why does the Moon appear red during a total lunar eclipse?",
+            "choices": [
+                "Rayleigh scattering",
+                "Refraction of sunlight through Earth's atmosphere",
+                "Both A and B"
+            ],
+            "correct_answer": "Both A and B",
+            "category": "Lunar Eclipses"
+        },
+        {
+            "question": "A lunar eclipse can only occur during which moon phase?",
+            "choices": [
+                "Full Moon",
+                "New Moon",
+                "First Quarter"
+            ],
+            "correct_answer": "Full Moon",
+            "category": "Lunar Eclipses"
+        },
+        {
+            "question": "What is the term for a moon that appears red during an eclipse?",
+            "choices": [
+                "Blood Moon",
+                "Harvest Moon",
+                "Blue Moon"
+            ],
+            "correct_answer": "Blood Moon",
+            "category": "Lunar Eclipses"
+        },
+        {
+            "question": "How long can a total lunar eclipse last?",
+            "choices": [
+                "Up to 1 hour and 40 minutes",
+                "7.5 minutes",
+                "12 hours"
+            ],
+            "correct_answer": "Up to 1 hour and 40 minutes",
+            "category": "Lunar Eclipses"
+        },
+        {
+            "question": "What is the Saros cycle?",
+            "choices": [
+                "A period of approximately 18 years, 11 days, and 8 hours that predicts eclipses",
+                "The orbital period of the Moon",
+                "The time it takes for light to reach Earth"
+            ],
+            "correct_answer": "A period of approximately 18 years, 11 days, and 8 hours that predicts eclipses",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "What are the orbital nodes?",
+            "choices": [
+                "Points where the Moon's orbit crosses the ecliptic plane",
+                "The highest and lowest points of the Moon's orbit",
+                "The center of the Earth and Sun"
+            ],
+            "correct_answer": "Points where the Moon's orbit crosses the ecliptic plane",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "Why don't eclipses happen every month?",
+            "choices": [
+                "The Moon's orbit is tilted by about 5 degrees relative to Earth's orbit",
+                "The Moon's orbit is perfectly flat",
+                "Earth's atmosphere blocks them"
+            ],
+            "correct_answer": "The Moon's orbit is tilted by about 5 degrees relative to Earth's orbit",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "What is the ecliptic?",
+            "choices": [
+                "The apparent path of the Sun on the celestial sphere",
+                "The equator of the Moon",
+                "The boundary of the solar system"
+            ],
+            "correct_answer": "The apparent path of the Sun on the celestial sphere",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "Which ancient civilization famously predicted eclipses using the Saros cycle?",
+            "choices": [
+                "Babylonians",
+                "Romans",
+                "Vikings"
+            ],
+            "correct_answer": "Babylonians",
+            "category": "History & Culture"
+        },
+        {
+            "question": "According to ancient Chinese mythology, what caused an eclipse?",
+            "choices": [
+                "A heavenly dragon eating the Sun",
+                "The Gods fighting",
+                "A giant wolf chasing the Moon"
+            ],
+            "correct_answer": "A heavenly dragon eating the Sun",
+            "category": "History & Culture"
+        },
+        {
+            "question": "During which famous war did the 'Battle of the Eclipse' take place, ending the war?",
+            "choices": [
+                "Between the Medes and the Lydians (585 BC)",
+                "The Peloponnesian War",
+                "The Punic Wars"
+            ],
+            "correct_answer": "Between the Medes and the Lydians (585 BC)",
+            "category": "History & Culture"
+        },
+        {
+            "question": "Who used a lunar eclipse in 1504 to frighten Jamaican natives into providing food?",
+            "choices": [
+                "Christopher Columbus",
+                "Ferdinand Magellan",
+                "James Cook"
+            ],
+            "correct_answer": "Christopher Columbus",
+            "category": "History & Culture"
+        },
+        {
+            "question": "What is the 'Path of Totality'?",
+            "choices": [
+                "The narrow track of the Moon's umbra across Earth's surface",
+                "The path of the Sun through the sky",
+                "The equator"
+            ],
+            "correct_answer": "The narrow track of the Moon's umbra across Earth's surface",
+            "category": "General Trivia"
+        },
+        {
+            "question": "Can a solar eclipse be seen from the Moon?",
+            "choices": [
+                "Yes, it looks like Earth is eclipsing the Sun",
+                "No, the Moon is too far",
+                "Yes, but only during the day"
+            ],
+            "correct_answer": "Yes, it looks like Earth is eclipsing the Sun",
+            "category": "General Trivia"
+        },
+        {
+            "question": "If the Moon's orbital inclination changed from 5 degrees to 4 degrees, what would happen?",
+            "choices": [
+                "Eclipses would occur more frequently",
+                "Eclipses would stop",
+                "Only lunar eclipses would happen"
+            ],
+            "correct_answer": "Eclipses would occur more frequently",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "If the Moon's orbital inclination changed from 5 degrees to 3 degrees, what would happen?",
+            "choices": [
+                "Eclipses would occur more frequently",
+                "Eclipses would stop",
+                "Only lunar eclipses would happen"
+            ],
+            "correct_answer": "Eclipses would occur more frequently",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "If the Moon's orbital inclination changed from 5 degrees to 3 degrees, what would happen?",
+            "choices": [
+                "Eclipses would occur more frequently",
+                "Eclipses would stop",
+                "Only lunar eclipses would happen"
+            ],
+            "correct_answer": "Eclipses would occur more frequently",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "If the Moon's orbital inclination changed from 5 degrees to 3 degrees, what would happen?",
+            "choices": [
+                "Eclipses would occur more frequently",
+                "Eclipses would stop",
+                "Only lunar eclipses would happen"
+            ],
+            "correct_answer": "Eclipses would occur more frequently",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "If the Moon's orbital inclination changed from 5 degrees to 4 degrees, what would happen?",
+            "choices": [
+                "Eclipses would occur more frequently",
+                "Eclipses would stop",
+                "Only lunar eclipses would happen"
+            ],
+            "correct_answer": "Eclipses would occur more frequently",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "If the Moon's orbital inclination changed from 5 degrees to 2 degrees, what would happen?",
+            "choices": [
+                "Eclipses would occur more frequently",
+                "Eclipses would stop",
+                "Only lunar eclipses would happen"
+            ],
+            "correct_answer": "Eclipses would occur more frequently",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "If the Moon's orbital inclination changed from 5 degrees to 3 degrees, what would happen?",
+            "choices": [
+                "Eclipses would occur more frequently",
+                "Eclipses would stop",
+                "Only lunar eclipses would happen"
+            ],
+            "correct_answer": "Eclipses would occur more frequently",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "If the Moon's orbital inclination changed from 5 degrees to 1 degrees, what would happen?",
+            "choices": [
+                "Eclipses would occur more frequently",
+                "Eclipses would stop",
+                "Only lunar eclipses would happen"
+            ],
+            "correct_answer": "Eclipses would occur more frequently",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "If the Moon's orbital inclination changed from 5 degrees to 3 degrees, what would happen?",
+            "choices": [
+                "Eclipses would occur more frequently",
+                "Eclipses would stop",
+                "Only lunar eclipses would happen"
+            ],
+            "correct_answer": "Eclipses would occur more frequently",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "If the Moon's orbital inclination changed from 5 degrees to 3 degrees, what would happen?",
+            "choices": [
+                "Eclipses would occur more frequently",
+                "Eclipses would stop",
+                "Only lunar eclipses would happen"
+            ],
+            "correct_answer": "Eclipses would occur more frequently",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "If the Moon's orbital inclination changed from 5 degrees to 1 degrees, what would happen?",
+            "choices": [
+                "Eclipses would occur more frequently",
+                "Eclipses would stop",
+                "Only lunar eclipses would happen"
+            ],
+            "correct_answer": "Eclipses would occur more frequently",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "If the Moon's orbital inclination changed from 5 degrees to 1 degrees, what would happen?",
+            "choices": [
+                "Eclipses would occur more frequently",
+                "Eclipses would stop",
+                "Only lunar eclipses would happen"
+            ],
+            "correct_answer": "Eclipses would occur more frequently",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "If the Moon's orbital inclination changed from 5 degrees to 2 degrees, what would happen?",
+            "choices": [
+                "Eclipses would occur more frequently",
+                "Eclipses would stop",
+                "Only lunar eclipses would happen"
+            ],
+            "correct_answer": "Eclipses would occur more frequently",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "If the Moon's orbital inclination changed from 5 degrees to 3 degrees, what would happen?",
+            "choices": [
+                "Eclipses would occur more frequently",
+                "Eclipses would stop",
+                "Only lunar eclipses would happen"
+            ],
+            "correct_answer": "Eclipses would occur more frequently",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "If the Moon's orbital inclination changed from 5 degrees to 4 degrees, what would happen?",
+            "choices": [
+                "Eclipses would occur more frequently",
+                "Eclipses would stop",
+                "Only lunar eclipses would happen"
+            ],
+            "correct_answer": "Eclipses would occur more frequently",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "If the Moon's orbital inclination changed from 5 degrees to 4 degrees, what would happen?",
+            "choices": [
+                "Eclipses would occur more frequently",
+                "Eclipses would stop",
+                "Only lunar eclipses would happen"
+            ],
+            "correct_answer": "Eclipses would occur more frequently",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "If the Moon's orbital inclination changed from 5 degrees to 3 degrees, what would happen?",
+            "choices": [
+                "Eclipses would occur more frequently",
+                "Eclipses would stop",
+                "Only lunar eclipses would happen"
+            ],
+            "correct_answer": "Eclipses would occur more frequently",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "If the Moon's orbital inclination changed from 5 degrees to 4 degrees, what would happen?",
+            "choices": [
+                "Eclipses would occur more frequently",
+                "Eclipses would stop",
+                "Only lunar eclipses would happen"
+            ],
+            "correct_answer": "Eclipses would occur more frequently",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "What term describes the straight-line configuration of three celestial bodies in a gravitational system?",
+            "choices": [
+                "Syzygy",
+                "Periapsis",
+                "Conjunction"
+            ],
+            "correct_answer": "Syzygy",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "Which scientist used the May 29, 1919 total solar eclipse to prove the theory of general relativity?",
+            "choices": [
+                "Arthur Eddington",
+                "Albert Einstein",
+                "Niels Bohr"
+            ],
+            "correct_answer": "Arthur Eddington",
+            "category": "History & Culture"
+        },
+        {
+            "question": "During totality, what is the temperature of the solar corona compared to the Sun's surface?",
+            "choices": [
+                "The corona is millions of degrees hotter",
+                "The corona is much cooler",
+                "They are exactly the same temperature"
+            ],
+            "correct_answer": "The corona is millions of degrees hotter",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "What optical illusion makes the Moon appear larger when it is close to the horizon?",
+            "choices": [
+                "The Moon Illusion",
+                "Atmospheric Magnification",
+                "The Rayleigh Effect"
+            ],
+            "correct_answer": "The Moon Illusion",
+            "category": "Lunar Eclipses"
+        },
+        {
+            "question": "What is the longest possible duration for a total solar eclipse?",
+            "choices": [
+                "7 minutes and 32 seconds",
+                "12 minutes and 10 seconds",
+                "4 minutes exactly"
+            ],
+            "correct_answer": "7 minutes and 32 seconds",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "Why is the Moon gradually moving away from the Earth (about 3.8 cm per year)?",
+            "choices": [
+                "Tidal friction transferring angular momentum",
+                "The expansion of the universe",
+                "Solar radiation pressure"
+            ],
+            "correct_answer": "Tidal friction transferring angular momentum",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "What will happen to total solar eclipses in about 600 million years due to the Moon moving away?",
+            "choices": [
+                "They will no longer occur, only annular eclipses will happen",
+                "They will last longer",
+                "They will happen every month"
+            ],
+            "correct_answer": "They will no longer occur, only annular eclipses will happen",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "Who is credited with predicting the solar eclipse of May 28, 585 BC, ending a war?",
+            "choices": [
+                "Thales of Miletus",
+                "Pythagoras",
+                "Aristotle"
+            ],
+            "correct_answer": "Thales of Miletus",
+            "category": "History & Culture"
+        },
+        {
+            "question": "What scale is used by astronomers to measure the darkness of a totally eclipsed Moon?",
+            "choices": [
+                "Danjon Scale",
+                "Bortle Scale",
+                "Richter Scale"
+            ],
+            "correct_answer": "Danjon Scale",
+            "category": "Lunar Eclipses"
+        },
+        {
+            "question": "What are the bright, ruby-red loops of plasma occasionally seen extending from the Sun during totality?",
+            "choices": [
+                "Solar Prominences",
+                "Coronal Mass Ejections",
+                "Sunspots"
+            ],
+            "correct_answer": "Solar Prominences",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "What term describes the points where the Moon's orbit crosses the ecliptic plane?",
+            "choices": [
+                "Orbital Nodes",
+                "Lagrange Points",
+                "Apogees"
+            ],
+            "correct_answer": "Orbital Nodes",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "What happens during a Penumbral Lunar Eclipse?",
+            "choices": [
+                "The Moon passes only through Earth's lighter outer shadow",
+                "The Moon turns deep red",
+                "The Moon completely disappears"
+            ],
+            "correct_answer": "The Moon passes only through Earth's lighter outer shadow",
+            "category": "Lunar Eclipses"
+        },
+        {
+            "question": "The cycle of eclipses repeating every 18 years, 11 days is called what?",
+            "choices": [
+                "The Saros Cycle",
+                "The Metonic Cycle",
+                "The Milankovitch Cycle"
+            ],
+            "correct_answer": "The Saros Cycle",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "In ancient Norse mythology, a solar eclipse was believed to be caused by what?",
+            "choices": [
+                "The wolf Sk\u00f6ll chasing and catching the Sun",
+                "Thor's hammer blocking the light",
+                "The world tree shaking"
+            ],
+            "correct_answer": "The wolf Sk\u00f6ll chasing and catching the Sun",
+            "category": "History & Culture"
+        },
+        {
+            "question": "What are shadow bands?",
+            "choices": [
+                "Faint ripples of light and dark seen on plain surfaces just before and after totality",
+                "The rings of Saturn blocking the Sun",
+                "Dark lines in the solar spectrum"
+            ],
+            "correct_answer": "Faint ripples of light and dark seen on plain surfaces just before and after totality",
+            "category": "General Trivia"
+        },
+        {
+            "question": "Can a solar eclipse occur at the exact same time as a lunar eclipse?",
+            "choices": [
+                "No, they require opposite moon phases",
+                "Yes, if the alignment is perfect",
+                "Yes, but only seen from the poles"
+            ],
+            "correct_answer": "No, they require opposite moon phases",
+            "category": "General Trivia"
+        },
+        {
+            "question": "What is the point in the Moon's orbit where it is farthest from Earth?",
+            "choices": [
+                "Apogee",
+                "Perigee",
+                "Aphelion"
+            ],
+            "correct_answer": "Apogee",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "An annular eclipse occurs when the Moon is near which orbital point?",
+            "choices": [
+                "Apogee",
+                "Perigee",
+                "Perihelion"
+            ],
+            "correct_answer": "Apogee",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "Which King of England supposedly died of fright shortly after the solar eclipse of 1133?",
+            "choices": [
+                "King Henry I",
+                "King Richard III",
+                "King John"
+            ],
+            "correct_answer": "King Henry I",
+            "category": "History & Culture"
+        },
+        {
+            "question": "During a total solar eclipse, wildlife often behaves unusually. Why?",
+            "choices": [
+                "They mistake the sudden darkness for nightfall",
+                "The gravitational pull changes",
+                "The temperature drop freezes them"
+            ],
+            "correct_answer": "They mistake the sudden darkness for nightfall",
+            "category": "General Trivia"
+        },
+        {
+            "question": "What element was first discovered by studying the spectrum of the Sun's corona during the 1868 total solar eclipse?",
+            "choices": [
+                "Helium",
+                "Hydrogen",
+                "Neon"
+            ],
+            "correct_answer": "Helium",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "Why don't we have an eclipse every full moon and new moon?",
+            "choices": [
+                "The Moon's orbit is tilted 5 degrees relative to Earth's orbit",
+                "The Moon moves too fast",
+                "The Earth's shadow isn't large enough"
+            ],
+            "correct_answer": "The Moon's orbit is tilted 5 degrees relative to Earth's orbit",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "What is the speed of the Moon's shadow across the Earth's surface during a solar eclipse?",
+            "choices": [
+                "Between 1,000 to 5,000 mph",
+                "About 100 mph",
+                "Speed of light"
+            ],
+            "correct_answer": "Between 1,000 to 5,000 mph",
+            "category": "General Trivia"
+        },
+        {
+            "question": "Who recorded the earliest known surviving record of a solar eclipse on a clay tablet in 1223 BC?",
+            "choices": [
+                "Babylonians in Ugarit",
+                "Ancient Egyptians",
+                "Mayan Priests"
+            ],
+            "correct_answer": "Babylonians in Ugarit",
+            "category": "History & Culture"
+        },
+        {
+            "question": "What causes the 'Diamond Ring Effect'?",
+            "choices": [
+                "A single point of sunlight shining through a lunar valley just before totality",
+                "Ice crystals in the Earth's atmosphere",
+                "Solar flares reflecting off the Moon"
+            ],
+            "correct_answer": "A single point of sunlight shining through a lunar valley just before totality",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "Which famous event is associated with the eclipse of 1919?",
+            "choices": [
+                "Arthur Eddington used this to test relativity.",
+                "It was the longest eclipse ever recorded.",
+                "It triggered a massive earthquake."
+            ],
+            "correct_answer": "Arthur Eddington used this to test relativity.",
+            "category": "History & Culture"
+        },
+        {
+            "question": "Which famous event is associated with the eclipse of 1999?",
+            "choices": [
+                "One of the most viewed total solar eclipses in history, crossing Europe.",
+                "It was the longest eclipse ever recorded.",
+                "It triggered a massive earthquake."
+            ],
+            "correct_answer": "One of the most viewed total solar eclipses in history, crossing Europe.",
+            "category": "History & Culture"
+        },
+        {
+            "question": "Which famous event is associated with the eclipse of 2017?",
+            "choices": [
+                "Known as the 'Great American Eclipse'.",
+                "It was the longest eclipse ever recorded.",
+                "It triggered a massive earthquake."
+            ],
+            "correct_answer": "Known as the 'Great American Eclipse'.",
+            "category": "History & Culture"
+        },
+        {
+            "question": "Which famous event is associated with the eclipse of 2024?",
+            "choices": [
+                "Crossed Mexico, the US, and Canada on April 8.",
+                "It was the longest eclipse ever recorded.",
+                "It triggered a massive earthquake."
+            ],
+            "correct_answer": "Crossed Mexico, the US, and Canada on April 8.",
+            "category": "History & Culture"
+        },
+        {
+            "question": "Which famous event is associated with the eclipse of 1504?",
+            "choices": [
+                "Columbus used a lunar eclipse to impress Jamaican natives.",
+                "It was the longest eclipse ever recorded.",
+                "It triggered a massive earthquake."
+            ],
+            "correct_answer": "Columbus used a lunar eclipse to impress Jamaican natives.",
+            "category": "History & Culture"
+        },
+        {
+            "question": "Which famous event is associated with the eclipse of 1868?",
+            "choices": [
+                "Led to the discovery of Helium.",
+                "It was the longest eclipse ever recorded.",
+                "It triggered a massive earthquake."
+            ],
+            "correct_answer": "Led to the discovery of Helium.",
+            "category": "History & Culture"
+        },
+        {
+            "question": "Which famous event is associated with the eclipse of 1973?",
+            "choices": [
+                "Scientists used a Concorde jet to chase the shadow, experiencing 74 minutes of totality.",
+                "It was the longest eclipse ever recorded.",
+                "It triggered a massive earthquake."
+            ],
+            "correct_answer": "Scientists used a Concorde jet to chase the shadow, experiencing 74 minutes of totality.",
+            "category": "History & Culture"
+        },
+        {
+            "question": "In astrophysics, what is the definition of 'Umbra'?",
+            "choices": [
+                "The fully shaded inner region of a shadow.",
+                "A type of ancient telescope.",
+                "A crater on the Moon."
+            ],
+            "correct_answer": "The fully shaded inner region of a shadow.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "In astrophysics, what is the definition of 'Penumbra'?",
+            "choices": [
+                "The partially shaded outer region of a shadow.",
+                "A type of ancient telescope.",
+                "A crater on the Moon."
+            ],
+            "correct_answer": "The partially shaded outer region of a shadow.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "In astrophysics, what is the definition of 'Antumbra'?",
+            "choices": [
+                "The lighter area of a shadow that appears beyond the umbra, responsible for annular eclipses.",
+                "A type of ancient telescope.",
+                "A crater on the Moon."
+            ],
+            "correct_answer": "The lighter area of a shadow that appears beyond the umbra, responsible for annular eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "In astrophysics, what is the definition of 'Totality'?",
+            "choices": [
+                "The maximum phase of an eclipse when the sun is completely covered.",
+                "A type of ancient telescope.",
+                "A crater on the Moon."
+            ],
+            "correct_answer": "The maximum phase of an eclipse when the sun is completely covered.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "In astrophysics, what is the definition of 'Syzygy'?",
+            "choices": [
+                "An alignment of three celestial bodies.",
+                "A type of ancient telescope.",
+                "A crater on the Moon."
+            ],
+            "correct_answer": "An alignment of three celestial bodies.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "In astrophysics, what is the definition of 'Node'?",
+            "choices": [
+                "The point where an orbit crosses a reference plane.",
+                "A type of ancient telescope.",
+                "A crater on the Moon."
+            ],
+            "correct_answer": "The point where an orbit crosses a reference plane.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "In astrophysics, what is the definition of 'Baily's Beads'?",
+            "choices": [
+                "Bright spots of sunlight caused by lunar topography.",
+                "A type of ancient telescope.",
+                "A crater on the Moon."
+            ],
+            "correct_answer": "Bright spots of sunlight caused by lunar topography.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "In astrophysics, what is the definition of 'Corona'?",
+            "choices": [
+                "The Sun's outer atmosphere.",
+                "A type of ancient telescope.",
+                "A crater on the Moon."
+            ],
+            "correct_answer": "The Sun's outer atmosphere.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "If an observer is standing in the 'Umbra', what are they experiencing?",
+            "choices": [
+                "The fully shaded inner region of a shadow.",
+                "No eclipse at all.",
+                "A meteor shower."
+            ],
+            "correct_answer": "The fully shaded inner region of a shadow.",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "If an observer is standing in the 'Penumbra', what are they experiencing?",
+            "choices": [
+                "The partially shaded outer region of a shadow.",
+                "No eclipse at all.",
+                "A meteor shower."
+            ],
+            "correct_answer": "The partially shaded outer region of a shadow.",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "If an observer is standing in the 'Antumbra', what are they experiencing?",
+            "choices": [
+                "The lighter area of a shadow that appears beyond the umbra, responsible for annular eclipses.",
+                "No eclipse at all.",
+                "A meteor shower."
+            ],
+            "correct_answer": "The lighter area of a shadow that appears beyond the umbra, responsible for annular eclipses.",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "If an observer is standing in the 'Totality', what are they experiencing?",
+            "choices": [
+                "The maximum phase of an eclipse when the sun is completely covered.",
+                "No eclipse at all.",
+                "A meteor shower."
+            ],
+            "correct_answer": "The maximum phase of an eclipse when the sun is completely covered.",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "If an observer is standing in the 'Syzygy', what are they experiencing?",
+            "choices": [
+                "An alignment of three celestial bodies.",
+                "No eclipse at all.",
+                "A meteor shower."
+            ],
+            "correct_answer": "An alignment of three celestial bodies.",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "If an observer is standing in the 'Node', what are they experiencing?",
+            "choices": [
+                "The point where an orbit crosses a reference plane.",
+                "No eclipse at all.",
+                "A meteor shower."
+            ],
+            "correct_answer": "The point where an orbit crosses a reference plane.",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "If an observer is standing in the 'Baily's Beads', what are they experiencing?",
+            "choices": [
+                "Bright spots of sunlight caused by lunar topography.",
+                "No eclipse at all.",
+                "A meteor shower."
+            ],
+            "correct_answer": "Bright spots of sunlight caused by lunar topography.",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "If an observer is standing in the 'Corona', what are they experiencing?",
+            "choices": [
+                "The Sun's outer atmosphere.",
+                "No eclipse at all.",
+                "A meteor shower."
+            ],
+            "correct_answer": "The Sun's outer atmosphere.",
+            "category": "Solar Eclipses"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 130 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 131 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 132 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 133 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 134 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 135 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 136 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 137 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 138 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 139 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 140 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 141 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 142 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 143 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 144 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 145 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 146 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 147 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 148 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
+        },
+        {
+            "question": "The Saros cycle is an 18-year period. What does Saros Series 149 primarily dictate?",
+            "choices": [
+                "A specific repeating sequence of solar or lunar eclipses.",
+                "The rotation of Mars.",
+                "The life cycle of a star."
+            ],
+            "correct_answer": "A specific repeating sequence of solar or lunar eclipses.",
+            "category": "Astrophysics"
         }
     ]
 }

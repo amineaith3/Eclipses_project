@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local saves
+user_progress.json
+
+# Helper scripts
+generate_questions.py
+inject_real_facts.py
+
+# Virtual environments
+venv/
+env/
+.env/
