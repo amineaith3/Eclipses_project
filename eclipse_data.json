@@ -399,6 +399,56 @@
                 "Eclipses have no cultural or historical significance.",
                 "Eclipses have always been accurately understood by all societies."
             ]
+        },
+        {
+            "number": 41,
+            "question": "What is the phase of the Moon during a solar eclipse?",
+            "correct_answer": "A solar eclipse can only occur during a New Moon phase.",
+            "choices": [
+                "A solar eclipse can only occur during a New Moon phase.",
+                "A solar eclipse can only occur during a Full Moon phase.",
+                "A solar eclipse can occur during any phase of the Moon."
+            ]
+        },
+        {
+            "number": 42,
+            "question": "What is the phase of the Moon during a lunar eclipse?",
+            "correct_answer": "A lunar eclipse can only occur during a Full Moon phase.",
+            "choices": [
+                "A lunar eclipse can only occur during a Full Moon phase.",
+                "A lunar eclipse can only occur during a New Moon phase.",
+                "A lunar eclipse can occur during any phase of the Moon."
+            ]
+        },
+        {
+            "number": 43,
+            "question": "What causes the Baily's beads effect during a solar eclipse?",
+            "correct_answer": "Baily's beads are caused by sunlight shining through the rugged valleys and craters on the Moon's edge.",
+            "choices": [
+                "Baily's beads are caused by sunlight shining through the rugged valleys and craters on the Moon's edge.",
+                "Baily's beads are caused by Earth's atmosphere distorting the sunlight.",
+                "Baily's beads are caused by solar flares erupting from the Sun."
+            ]
+        },
+        {
+            "number": 44,
+            "question": "Can a lunar eclipse be viewed from anywhere on Earth?",
+            "correct_answer": "A lunar eclipse can be viewed from anywhere on the night side of Earth.",
+            "choices": [
+                "A lunar eclipse can be viewed from anywhere on the night side of Earth.",
+                "A lunar eclipse can only be viewed from a narrow path on Earth.",
+                "A lunar eclipse can be viewed from anywhere on the day side of Earth."
+            ]
+        },
+        {
+            "number": 45,
+            "question": "What is an antumbra in the context of eclipses?",
+            "correct_answer": "The antumbra is the part of the shadow where the obscuring body appears entirely contained within the disc of the light source, creating an annular eclipse.",
+            "choices": [
+                "The antumbra is the part of the shadow where the obscuring body appears entirely contained within the disc of the light source, creating an annular eclipse.",
+                "The antumbra is the darkest part of the shadow where the light source is completely blocked.",
+                "The antumbra is the lighter outer part of the shadow where the light source is only partially blocked."
+            ]
         }
     ]
 }
